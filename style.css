@@ -1,8 +1,17 @@
 body,html{
     height:100%;
     margin:0;
-    font: italic small-caps bold 16px/2 cursive;
+    font: italic small-caps bold 16px/2 Georgia, serif;
 }
+.sponser{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.iit, .sntc{
+    padding: 20px, 20px;
+}
+
 main{
     display:none;
 }
@@ -256,7 +265,7 @@ h1{
 }
 #projects .footer, #events .footer{
     text-align: center;
-    font: italic small-caps bold 16px/2 cursive;
+    font: italic small-caps bold 16px/2 Georgia, serif;
 }
 #team{
     padding-bottom: 30px;
